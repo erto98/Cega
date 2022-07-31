@@ -205,7 +205,7 @@ export default function Navbar() {
                     </MDBDropdownItem>
                     <MDBDropdownItem>
                       <MDBDropdownLink href="/bostanci">
-                        Bostancı Bağcıl SK
+                        Bostancı Bağcı SK
                       </MDBDropdownLink>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
