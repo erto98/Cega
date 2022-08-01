@@ -17,8 +17,7 @@ import {
   MDBCollapse,
 } from "mdb-react-ui-kit";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "../components/user/Login";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 export default function Navbar() {
   const [showBasic, setShowBasic] = useState(false);
