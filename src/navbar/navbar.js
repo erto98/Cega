@@ -18,6 +18,7 @@ import {
 } from "mdb-react-ui-kit";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import "./navbar.css"
 
 export default function Navbar() {
   const [showBasic, setShowBasic] = useState(false);
