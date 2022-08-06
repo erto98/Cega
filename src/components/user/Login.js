@@ -129,7 +129,7 @@ const Login = () => {
           <SubmitButton />
         </DialogActions>
       </form>
-      <DialogActions sx={{ justifyContent: 'left', p: '5px 24px' }}>
+      {/* <DialogActions sx={{ justifyContent: 'left', p: '5px 24px' }}>
         {isRegister
           ? 'Do you have an account? Sign in now'
           : "Don't you have an account? Create one now"}
@@ -145,7 +145,7 @@ const Login = () => {
         >
           Login with Google
         </Button>
-      </DialogActions>
+      </DialogActions> */}
     </>
   );
 };

@@ -43,7 +43,7 @@ const Profile = () => {
     let imagesObj = { uName: name };
     try {
       if (file) {
-        const imageName = uuidv4() + '.' + file?.name.split('.')?.pop();
+        const imageName = uuidv4() + '.' + file?.name?.split('.')?.pop();
         const url = await uploadFile(
           file,
           `profile/${currentUser?.uid}/${imageName}`
